@@ -1,7 +1,7 @@
 {
     "id": 3217,
     "name": "xhlcode-自用订阅",
-    "version": 3,
+    "version": 2,
     "author": "xhlcode",
     "checkUpdateUrl": "https://raw.kkgithub.com/xhlcode/GKD_subscription/main/dist/gkd.json5",
     "updateUrl": "https://raw.kkgithub.com/xhlcode/GKD_subscription/main/dist/gkd.json5",
@@ -71,13 +71,7 @@
                     "snapshotUrls": [
                         "https://i.gkd.li/snapshot/1740064334516"
                     ]
-                }
-            ]
-        },
-        {
-            "id": "com.finshell.wallet",
-            "name": "钱包",
-            "groups": [
+                },
                 {
                     "key": 0,
                     "name": "签到类-点击弹框去签到",
