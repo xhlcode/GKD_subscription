@@ -30,6 +30,27 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "com.ss.android.article.news",
+            "name": "今日头条",
+            "groups": [
+                {
+                    "key": 0,
+                    "name": "提示类-关闭开启提示",
+                  "enable": true,
+                  "desc": "关闭开启重要资讯通知",
+                    "rules": {
+                        "matches": "LynxFlattenUI[text='暂不开启'][clickable=true]"
+                    },
+                    "activityIds": [
+                        "com.ss.android.article.news.activity.MainActivity"
+                    ],
+                    "snapshotUrls": [
+                        "https://i.gkd.li/snapshot/1739598817415"
+                    ]
+                }
+            ]
         }
     ]
 }
