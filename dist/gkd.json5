@@ -1,1 +1,35 @@
-{id:233,name:'Subscription',version:0,author:'author',checkUpdateUrl:'./gkd.version.json5',supportUri:'https://github.com/gkd-kit/subscription-template',categories:[],globalGroups:[],apps:[{id:'li.songe.gkd',name:'GKD',groups:[]},{id:'com.tencent.mobileqq',name:'QQ',groups:[]},{id:'com.tencent.mm',name:'微信',groups:[]}]}
+{
+    "id": 233,
+    "name": "xhlcode-自用订阅",
+    "version": 0,
+    "author": "xhlcode",
+    "checkUpdateUrl": "./gkd.version.json5",
+    "supportUri": "https://github.com/gkd-kit/subscription-template",
+    "categories": [],
+    "globalGroups": [],
+    "apps": [
+        {
+            "id": "com.kurogame.kjq",
+            "name": "库街区",
+            "groups": [
+                {
+                    "key": 0,
+                    "name": "签到类-跳转到签到页面",
+                  "enable": true,
+                  "desc": "每次进入首页自动跳转到签到页面",
+                  "actionMaximum": 1,
+                    "rules": {
+                        "matches": "LinearLayout[id=\"com.kurogame.kjq:id/ll_wiki_tab\"] LinearLayout[index=2]"
+                    },
+                    "resetMatch": "app",
+                    "activityIds": [
+                        "com.kurogame.kjq.MainActivity"
+                    ],
+                    "snapshotUrls": [
+                        "https://i.gkd.li/snapshot/1720511088506"
+                    ]
+                }
+            ]
+        }
+    ]
+}
