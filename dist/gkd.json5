@@ -109,6 +109,24 @@
                   "snapshotUrls": [
                       "https://i.gkd.li/snapshot/1740403813198"
                   ]
+              },
+{
+                  "key": 1,
+                  "name": "签到类-跳转到签到页面",
+                "enable": true,
+                "resetMatch": "app",
+"actionDelay": 6000,
+                "actionMaximum": 1,
+                "desc": "APP福利抽奖-等待6S跳转到APP福利抽奖",
+                  "rules": {
+                      "matches": "TextView[text='赚珑珠'] + LinearLayout >2 ImageView[index=1]"
+                  },
+                  "activityIds": [
+                      "com.longfor.supera.main.MainActivity"
+                  ],
+                  "snapshotUrls": [
+                      "https://i.gkd.li/snapshot/1740403813198"
+                  ]
               }
           ]
       },
